@@ -22,7 +22,6 @@ public class RegisterActivity extends AppCompatActivity implements AdapterView.O
     RadioButton rmale,rfemale;
     Spinner country;
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
