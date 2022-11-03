@@ -17,7 +17,6 @@ public class NavigationActivity extends AppCompatActivity {
     NavigationView navigat;
     Toolbar toolbar;
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -34,7 +33,5 @@ public class NavigationActivity extends AppCompatActivity {
         drawerLayout.addDrawerListener(toggle);
 
         toggle.syncState();
-
-
     }
 }
